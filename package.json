@@ -103,6 +103,10 @@
     "electron-builder": "^23.0.0",
     "@achrinza/node-ipc": "^10.1.0"
   },
+  "scripts": {
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
   "eslintConfig": {
     "root": true,
     "env": {
